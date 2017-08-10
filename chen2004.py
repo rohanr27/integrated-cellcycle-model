@@ -164,7 +164,7 @@ for i in range(0,sim):
         count += 1
 
     
-    while endM ==0 and count < len(dCdt)-1:
+    while endM ==0:
         if result[count,9]<1.0:
             endM = count
         count +=1
